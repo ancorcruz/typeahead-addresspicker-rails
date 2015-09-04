@@ -15,10 +15,10 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency             "railties",   "~> 4.1"
   spec.add_dependency             "actionpack", "~> 4.1"
-  spec.add_dependency             "jquery-rails", "~> 3.1"
+  spec.add_dependency             "jquery-rails", "~> 4.0"
   spec.add_dependency             "twitter-typeahead-rails", "~> 0.10.5"
 
-  spec.add_development_dependency "rails", "~> 3.1"
+  spec.add_development_dependency "rails", "~> 4.1"
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.require_paths = ["lib"]
